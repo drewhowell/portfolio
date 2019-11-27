@@ -3,7 +3,6 @@ body, html {
   }
 
 .headerbox {
-    margin-top: 20pt;
     background: white;
     overflow: auto;
     border-bottom-style: solid;
@@ -12,7 +11,7 @@ body, html {
 
 .header {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
     background: #4aaaa5;
     color: #ffffff;
@@ -23,22 +22,66 @@ body, html {
 }
 
 li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: large;
     list-style: none;
     display: inline;
     float: left;
 }
 
 .nav1 {
-    padding: 20pt;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+    margin-right: 10pt;
+    padding-right: 10pt;
+    border-right-style: solid;
+    border-right-color: #cccccc;
+    border-right-width: 1pt;
     margin-left: 25%;
 }
 
 .nav2 {
-    padding: 20pt;
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+    margin-right: 10pt;
+    padding-right: 10pt;
+    border-right-style: solid;
+    border-right-color: #cccccc;
+    border-right-width: 1pt;
 }
 
-.aboutme {
+.nav3 {
+    margin-top: 20pt;
+    margin-bottom: 20pt;
+}
+
+.aboutmesection {
     background: white;
     width: 960px;
     margin-left: 20%;
+    border-style: solid;
+    border-width: 1pt;
+    border-color: #dddddd;
+    padding: 15pt;
+    margin-top: 10pt;
+}
+
+.aboutme {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+.break {
+    border: none;
+    color: #cccccc;
+    background-color: #cccccc;
+    height: 2px;
+}
+
+.navbreak {
+    width: .5pt;
+    height: 8pt;
 }
