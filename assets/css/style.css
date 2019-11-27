@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+  }
+
+.headerbox {
+    margin-top: 20pt;
+    background: white;
+    overflow: auto;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bold;
+    background: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    padding: 20pt;
+    text-align: center;
+    margin-left: 20%;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    float: left;
+}
+
+.nav1 {
+    padding: 20pt;
+    margin-left: 25%;
+}
+
+.nav2 {
+    padding: 20pt;
+}
+
+.aboutme {
+    background: white;
+    width: 960px;
+    margin-left: 20%;
+}
