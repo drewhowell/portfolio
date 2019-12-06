@@ -7,6 +7,7 @@ body, html {
     overflow: auto;
     border-bottom-style: solid;
     border-bottom-color: #cccccc;
+    clear: both;
 }
 
 .header {
@@ -65,21 +66,22 @@ body {
     flex: 1 0 auto;
 }
 
+
 .aboutmesection {
     clear: both;
     overflow: auto;
     background: #ffffff;
     width: 960px;
-    margin-left: 20%;
     border-style: solid;
     border-width: 1pt;
     border-color: #dddddd;
+    margin-left: 20%;
     padding: 15pt;
     margin-top: 20pt;
     margin-bottom: 20pt;
 }
 
-.aboutme {
+.bodytitle {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: x-large;
     color: #4aaaa5;
@@ -117,3 +119,142 @@ footer {
     flex-shrink: 0;
 }
 
+.hangmanimage {
+    float: left;
+}
+
+.rpgimage {
+    float: left;
+}
+
+.triviaimage {
+    clear: both;
+    float: left;
+}
+
+.rutgersimage {
+    float: left;
+}
+
+.prsimage {
+    clear: both;
+    float: left;
+}
+
+.imagecontainer1 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.bottom-middle1 {
+    position: absolute;
+    top: 150px;
+    background: #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.imagecontainer2 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.bottom-middle2 {
+    position: absolute;
+    top: 150px;
+    background: #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.imagecontainer3 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.bottom-middle3 {
+    position: absolute;
+    top: 150px;
+    background: #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.imagecontainer4 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.bottom-middle4 {
+    position: absolute;
+    top: 150px;
+    background: #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.imagecontainer5 {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.bottom-middle5 {
+    position: absolute;
+    top: 150px;
+    background: #4aaaa5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #4aaaa5;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  label {
+      font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  }
